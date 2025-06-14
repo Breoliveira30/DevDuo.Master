@@ -205,7 +205,7 @@ Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalh
 ## 📞 Contato
 
 - **WhatsApp**: (61) 99859-0309
-- **Email**: contato@devduo.com.br
+- **Email**: devduo.solution@gmail.com
 - **Website**: [DevDuo Landing Page](https://seu-dominio.com)
 
 ## 🆘 Suporte

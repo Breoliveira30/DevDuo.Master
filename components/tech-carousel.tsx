@@ -42,11 +42,7 @@ const technologies = [
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
     color: "bg-orange-500",
   },
-  {
-    name: "Tailwind CSS",
-    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
-    color: "bg-cyan-400",
-  },
+ 
 ]
 
 export function TechCarousel() {

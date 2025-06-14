@@ -684,13 +684,13 @@ export default function LandingPage() {
                       </div>
                       <div>
                         <h3 className="text-2xl font-bold text-gray-800 mb-2">Email</h3>
-                        <p className="text-gray-600 mb-4">contato@devduo.com.br</p>
+                        <p className="text-gray-600 mb-4">devduo.solution@gmail.com</p>
                         <Button
                           size="lg"
                           asChild
                           className="bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
                         >
-                          <Link href="mailto:contato@devduo.com.br">
+                          <Link href="mailto:devduo.solution@gmail.com?subject=Interesse%20em%20servi%C3%A7o%20de%20site%20ou%20landing%20page&body=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20conversa%20com%20voc%C3%AAs.%20Tenho%20interesse%20em%20desenvolver%20um%20site%20ou%20uma%20landing%20page.">
                             <Mail className="mr-2 h-5 w-5" />
                             Enviar Email
                           </Link>
@@ -703,10 +703,10 @@ export default function LandingPage() {
                     <h3 className="text-lg font-medium mb-4 text-gray-800">Redes Sociais</h3>
                     <div className="flex justify-center space-x-4">
                       {[
-                        { icon: Instagram, color: "from-pink-500 to-purple-500", href: "#" },
+                        { icon: Instagram, color: "from-pink-500 to-purple-500", href: "https://www.instagram.com/devduo.solution/?igsh=MWhibWloZGJvb21nbg%3D%3D#" },
                         { icon: Facebook, color: "from-blue-500 to-blue-600", href: "#" },
                         { icon: Linkedin, color: "from-blue-600 to-blue-700", href: "#" },
-                        { icon: Mail, color: "from-gray-500 to-gray-600", href: "mailto:contato@devduo.com.br" },
+                        { icon: Mail, color: "from-gray-500 to-gray-600", href: "mailto:devduo.solution@gmail.com?subject=Interesse%20em%20servi%C3%A7o%20de%20site%20ou%20landing%20page&body=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20conversa%20com%20voc%C3%AAs.%20Tenho%20interesse%20em%20desenvolver%20um%20site%20ou%20uma%20landing%20page." },
                       ].map((social, index) => (
                         <Link
                           key={index}
