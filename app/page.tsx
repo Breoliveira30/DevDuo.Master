@@ -103,7 +103,7 @@ export default function LandingPage() {
 
       <header className="sticky top-0 z-40 w-full border-b bg-white/80 backdrop-blur-lg supports-[backdrop-filter]:bg-white/60 shadow-lg">
         <div className="container flex h-16 items-center justify-between">
-          <Link href="/admin/login" className="flex items-center gap-2 animate-bounce-in">
+          <Link href="#" className="flex items-center gap-2 animate-bounce-in">
             <div className="p-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-lg">
               <Code className="h-6 w-6 text-white" />
             </div>
@@ -239,9 +239,9 @@ export default function LandingPage() {
                     </span>
                   </div>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-6xl/none bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent">
-                    Transforme sua presença digital com  Sites e Landing Pages
+                    Transforme sua presença digital com Site e Landing Page
                     <span className="block text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text">
-                      EXTRAORDINÁRIAS! 🚀
+                      EXTRAORDINÁRIA! 🚀
                     </span>
                   </h1>
                   <p className="max-w-[600px] text-gray-600 text-base md:text-xl leading-relaxed">
@@ -373,7 +373,7 @@ export default function LandingPage() {
                     O que oferecemos
                   </h2>
                   <p className="max-w-[900px] text-gray-600 text-base md:text-xl/relaxed">
-                    Criamos Landing Pages profissionais e personalizadas que
+                    Criamos Sites e Landing Pages profissionais e personalizadas que
                     <span className="font-bold text-purple-600"> fazem seu negócio brilhar</span> na internet
                   </p>
                 </div>
@@ -740,7 +740,7 @@ export default function LandingPage() {
                     Pronto para transformar sua presença digital?
                   </h2>
                   <p className="mx-auto max-w-[700px] text-base md:text-xl/relaxed text-white/90">
-                    Solicite um orçamento sem compromisso e vamos criar juntos a landing page perfeita para o seu
+                    Solicite um orçamento sem compromisso e vamos criar juntos seu Site ou landing page perfeita para o seu
                     negócio.
                   </p>
                 </div>
