@@ -235,11 +235,11 @@ export default function LandingPage() {
                   <div className="flex items-center gap-2 mb-4">
                     <Star className="h-6 w-6 text-yellow-500 animate-pulse" />
                     <span className="text-sm font-medium text-purple-600 bg-purple-100 px-3 py-1 rounded-full">
-                      #1 em Landing Pages
+                      #1 em Sites e Landing Pages
                     </span>
                   </div>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-6xl/none bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent">
-                    Transforme sua presença digital com Landing Pages
+                    Transforme sua presença digital com  Sites e Landing Pages
                     <span className="block text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text">
                       EXTRAORDINÁRIAS! 🚀
                     </span>
@@ -473,7 +473,7 @@ export default function LandingPage() {
                     title: "Desenvolvedor",
                     desc: "Designer e desenvolvedor com olhar apurado para detalhes, transformando conceitos em experiências visuais impactantes.",
                     gradient: "from-cyan-500 to-blue-500",
-                    github: "https://github.com/outro-usuario-github",
+                    github: "https://github.com/Gabriel-NSantos",
                     linkedin: "https://www.linkedin.com/in/gabriel-alves-7a1617263/",
                   },
                 ].map((person, index) => (
@@ -667,7 +667,7 @@ export default function LandingPage() {
                           className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
                         >
                           <Link
-                            href="https://wa.me/5561998590309?text=Olá! Gostaria de solicitar um orçamento para uma landing page. Podem me ajudar?"
+                            href="https://wa.me/5561998590309?text=Olá! Gostaria de solicitar um orçamento para fazermos um Site ou uma Lading Page. Podem me ajudar?"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
