@@ -13,7 +13,7 @@ const technologies = [
     color: "bg-blue-500",
   },
   {
-    name: "JavaScript",
+    name: "JS",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
     color: "bg-yellow-500",
   },
