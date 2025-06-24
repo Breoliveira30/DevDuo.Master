@@ -8,7 +8,7 @@ import { Toaster } from "@/components/ui/toaster"
 export const metadata: Metadata = {
   title: "DevDuo",
   description: "Transforme sua presença digital com Landing Pages extraordinárias",
-  generator: "v0.dev",
+  
 }
 
 export default function RootLayout({
