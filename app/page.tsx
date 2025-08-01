@@ -239,9 +239,9 @@ export default function LandingPage() {
                     </span>
                   </div>
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl xl:text-6xl/none bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500 bg-clip-text text-transparent">
-                    Transforme sua presença digital com Site e Landing Page
+                    Transforme sua presença digital com Sites e Landing Pages
                     <span className="block text-transparent bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text">
-                      EXTRAORDINÁRIA! 🚀
+                      EXTRAORDINÁRIAS! 🚀
                     </span>
                   </h1>
                   <p className="max-w-[600px] text-gray-600 text-base md:text-xl leading-relaxed">
