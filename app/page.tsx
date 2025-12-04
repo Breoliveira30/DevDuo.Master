@@ -256,7 +256,10 @@ export default function LandingPage() {
                     size="lg"
                     className="w-full sm:w-auto bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
                   >
-                    <Link href="#contact">
+                    <Link href="https://wa.me/5561995194338?text=Olá!Gostaria de conversar um pouco para entendermos juntos qual serviço da DevDuo melhor se encaixa no que estou procurando. Podem me ajudar?"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
                       <Rocket className="mr-2 h-5 w-5" />
                       Solicitar Orçamento
                       <ArrowRight className="ml-2 h-4 w-4" />
@@ -325,7 +328,7 @@ export default function LandingPage() {
                     {/* Imagem principal */}
                     <div className="relative overflow-hidden rounded-xl border border-white/20 backdrop-blur-sm bg-white/5">
                       <Image
-                        src="/images/devduo-logo.png"
+                        src="/images/lg_dev.png"
                         width={550}
                         height={550}
                         alt="DevDuo - Desenvolvimento de Landing Pages"
@@ -462,8 +465,8 @@ export default function LandingPage() {
                 {[
                   {
                     image: "/images/brenno.jpeg",
-                    title: "Desenvolvedor",
-                    desc: "Apaixonado por tecnologia e especialista em desenvolvimento front-end, criando interfaces modernas e intuitivas para os usuários.",
+                    title: "Dev e QA",
+                    desc: "Desenvolvedor front-end com foco na criação de interfaces claras e funcionais. Atuo também como QA, minha área de especialização atual, realizando testes manuais e automatizados nas aplicações web dos clientes da DevDuo para garantir estabilidade e qualidade.",
                     gradient: "from-purple-500 to-pink-500",
                     github: "https://github.com/Breoliveira30",
                     linkedin: "https://www.linkedin.com/in/brenno-oliveira-5264b9265/",
@@ -660,14 +663,14 @@ export default function LandingPage() {
                       </div>
                       <div>
                         <h3 className="text-2xl font-bold text-gray-800 mb-2">WhatsApp</h3>
-                        <p className="text-gray-600 mb-4">(61) 99859-0309</p>
+                        <p className="text-gray-600 mb-4">(61) 99519-4338</p>
                         <Button
                           size="lg"
                           asChild
                           className="bg-gradient-to-r from-green-500 to-emerald-500 hover:from-green-600 hover:to-emerald-600 transform hover:scale-105 transition-all duration-300 shadow-lg"
                         >
                           <Link
-                            href="https://wa.me/5561998590309?text=Olá! Gostaria de solicitar um orçamento para fazermos um Site ou uma Lading Page. Podem me ajudar?"
+                            href="https://wa.me/5561995194338?text=Olá! Gostaria de conversar um pouco para entendermos juntos qual serviço da DevDuo melhor se encaixa no que estou procurando. Podem me ajudar?"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
@@ -749,7 +752,10 @@ export default function LandingPage() {
                   asChild
                   className="bg-white text-purple-600 hover:bg-yellow-400 hover:text-purple-700 w-full sm:w-auto transform hover:scale-110 transition-all duration-300 shadow-2xl font-bold animate-pulse-glow"
                 >
-                  <Link href="#contact">
+                  <Link href="https://wa.me/5561995194338?text=Olá!Gostaria de conversar um pouco para entendermos juntos qual serviço da DevDuo melhor se encaixa no que estou procurando. Podem me ajudar?"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
                     <Rocket className="mr-2 h-5 w-5" />
                     Solicitar Orçamento AGORA!
                     <ArrowRight className="ml-2 h-4 w-4" />

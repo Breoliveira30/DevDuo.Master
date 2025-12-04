@@ -7,7 +7,7 @@ const nextConfig = {
     ignoreBuildErrors: true,
   },
   images: {
-    domains: ["blob.v0.dev", "cdn.jsdelivr.net"],
+    domains: ["blob.dev", "cdn.jsdelivr.net"],
     remotePatterns: [
       {
         protocol: "https",
