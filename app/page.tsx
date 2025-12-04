@@ -24,6 +24,7 @@ import {
   Rocket,
   Eye,
   Mail,
+  Icon,
 } from "lucide-react"
 import { PortfolioCarousel } from "@/components/portfolio-carousel"
 import { TechCarousel } from "@/components/tech-carousel"
@@ -703,12 +704,12 @@ export default function LandingPage() {
                   </div>
 
                   <div className="pt-4">
-                    <h3 className="text-lg font-medium mb-4 text-gray-800">Redes Sociais</h3>
+                    <h3 className="text-lg font-medium mb-4 text-gray-800">Onde VOCÊ pode nos encontrar</h3>
                     <div className="flex justify-center space-x-4">
                       {[
                         { icon: Instagram, color: "from-pink-500 to-purple-500", href: "https://www.instagram.com/devduo.solution/?igsh=MWhibWloZGJvb21nbg%3D%3D#" },
                         { icon: Facebook, color: "from-blue-500 to-blue-600", href: "#" },
-                        { icon: Linkedin, color: "from-blue-600 to-blue-700", href: "#" },
+                        {icon: Smartphone, color:"from-green-500 to-green-600", href: "https://wa.me/5561995194338?text=Olá!Gostaria de conversar um pouco para entendermos juntos qual serviço da DevDuo melhor se encaixa no que estou procurando. Podem me ajudar?" },
                         { icon: Mail, color: "from-gray-500 to-gray-600", href: "mailto:devduo.solution@gmail.com?subject=Interesse%20em%20servi%C3%A7o%20de%20site%20ou%20landing%20page&body=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20conversa%20com%20voc%C3%AAs.%20Tenho%20interesse%20em%20desenvolver%20um%20site%20ou%20uma%20landing%20page." },
                       ].map((social, index) => (
                         <Link
