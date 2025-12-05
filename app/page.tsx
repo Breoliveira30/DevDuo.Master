@@ -708,7 +708,7 @@ export default function LandingPage() {
                     <div className="flex justify-center space-x-4">
                       {[
                         { icon: Instagram, color: "from-pink-500 to-purple-500", href: "https://www.instagram.com/devduo.solution/?igsh=MWhibWloZGJvb21nbg%3D%3D#" },
-                        { icon: Facebook, color: "from-blue-500 to-blue-600", href: "#" },
+                        { icon: Facebook, color: "from-blue-500 to-blue-600", href: "https://www.facebook.com/profile.php?id=61584704039114&sk=about" },
                         {icon: Smartphone, color:"from-green-500 to-green-600", href: "https://wa.me/5561995194338?text=Olá!Gostaria de conversar um pouco para entendermos juntos qual serviço da DevDuo melhor se encaixa no que estou procurando. Podem me ajudar?" },
                         { icon: Mail, color: "from-gray-500 to-gray-600", href: "mailto:devduo.solution@gmail.com?subject=Interesse%20em%20servi%C3%A7o%20de%20site%20ou%20landing%20page&body=Ol%C3%A1%2C%20gostaria%20de%20marcar%20uma%20conversa%20com%20voc%C3%AAs.%20Tenho%20interesse%20em%20desenvolver%20um%20site%20ou%20uma%20landing%20page." },
                       ].map((social, index) => (
