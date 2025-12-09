@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: "DevDuo",
   description: "Transforme sua presença digital com Landing Pages extraordinárias",
   icons: {
-    icon: "/favicon-32x32.png", // <- favicon
+    icon: "/favicon-32x32.png",
   },
 };
 
@@ -20,6 +20,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
+      <head>
+        {/* Google Tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-23GK10YM0V"
+        ></script>
+
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-23GK10YM0V');
+            `,
+          }}
+        />
+      </head>
+
       <body>
         <AuthProvider>
           <ProjectProvider>
